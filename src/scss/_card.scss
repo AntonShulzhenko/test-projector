@@ -1,0 +1,27 @@
+.card {
+  width: 225px;
+  min-height: 346px;
+  margin: 0 10px 30px;
+  overflow: hidden;
+  border-radius: 8px;
+  font-size: 0;
+  background-color: #eee;
+  &__image {
+    width: 100%;
+    height: 225px;
+    overflow: hidden;
+  }
+  &__data {
+    text-align: center;
+    background-color: $blue;
+    min-height: 121px;
+    padding: 15px;
+  }
+  &__link {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    color: $link;
+    text-decoration: none;
+  }
+}

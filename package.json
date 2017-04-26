@@ -1,0 +1,34 @@
+{
+  "name": "test-projector",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Anton Shulzhenko <shulzhenkomailbox@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.6.1",
+    "browser-sync": "^2.18.5",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-cached": "^1.1.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-eslint": "^3.0.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-include": "^2.3.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.2.0",
+    "gulp-sass": "^3.0.0",
+    "gulp-sourcemaps": "^1.9.1",
+    "gulp-util": "^3.0.8",
+    "run-sequence": "^1.2.2",
+    "stream-browserify": "^2.0.1",
+    "merge-stream": "^1.0.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-data": "^1.2.1",
+    "fs": "^0.0.1-security"
+  },
+  "dependencies": {
+    "normalize.css": "^5.0.0",
+    "sass": "^0.5.0"
+  }
+}

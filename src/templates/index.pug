@@ -1,0 +1,27 @@
+doctype
+html(lang="ru")
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    meta(name="format-detection" content="telephone=no")
+    meta(name="description" content="Test Projector")
+      
+    title= pageTitle
+    
+    link(rel="stylesheet" href="css/normalize.css")
+    link(rel="stylesheet" href="css/main.css")
+    
+  body
+    .container
+      .card
+        .card__image
+          img(src="img/img-1.jpg", alt="Рюкзак «Ready for school»")
+        
+        .card__data
+          a.card__link(href="#") Рюкзак «Ready for school»
+          p.card__price
+            | 241.50
+            span грн
+    
+  script(src="js/main.js")
