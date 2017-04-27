@@ -17,7 +17,7 @@ html(lang="ru")
       each card in cards
         .card
           .card__image
-            img(src=`${card.img}`, alt=`${card.name}`)
+            img(src=`${card.img}`, alt=`${card.alt}`)
           
           .card__data
             a.card__link(href="#") !{card.name}
