@@ -1,3 +1,40 @@
 {
-  "pageTitle": "Test Projector"
+  "pageTitle": "Test Projector",
+  "cards": [
+    {
+      "img": "img/img-1.jpg",
+      "name": "Рюкзак<br> «Ready for school»",
+      "price": "241.50"
+    },
+    {
+      "img": "img/img-2.jpg",
+      "name": "Рюкзак<br> «Птичье царство»",
+      "price": "241.50"
+    },
+    {
+      "img": "img/img-3.jpg",
+      "name": "Рюкзак «Мадонна»",
+      "price": "241.50"
+    },
+    {
+      "img": "img/img-4.jpg",
+      "name": "Рюкзак<br> «Violent green»",
+      "price": "241.50"
+    },
+    {
+      "img": "img/img-5.jpg",
+      "name": "Рюкзак<br> «ripndip wilderness»",
+      "price": "241.50"
+    },
+    {
+      "img": "img/img-6.jpg",
+      "name": "Рюкзак<br> «Off the wall»",
+      "price": "241.50"
+    },
+    {
+      "img": "img/img-7.jpg",
+      "name": "Просто красный рюкзак",
+      "price": "241.50"
+    }
+  ]
 }

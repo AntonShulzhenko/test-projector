@@ -22,7 +22,11 @@ body {
 }
 
 .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
   width: 100%;
   max-width: 980px;
-  margin: 70px auto 0;
+  margin: 70px auto 55px;
 }

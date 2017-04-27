@@ -14,14 +14,15 @@ html(lang="ru")
     
   body
     .container
-      .card
-        .card__image
-          img(src="img/img-1.jpg", alt="Рюкзак «Ready for school»")
-        
-        .card__data
-          a.card__link(href="#") Рюкзак «Ready for school»
-          p.card__price
-            | 241.50
-            span грн
+      each card in cards
+        .card
+          .card__image
+            img(src=`${card.img}`, alt=`${card.name}`)
+          
+          .card__data
+            a.card__link(href="#") !{card.name}
+            p.card__price
+              | #{card.price} 
+              span грн
     
   script(src="js/main.js")
